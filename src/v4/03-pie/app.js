@@ -19,7 +19,10 @@
     ["雪梨", 350],
     ["西红柿", 190]
   ]
+  console.log('data', data);
+
   var pieData = pie(data);
+  console.log('pieData', pieData);
 
   var svg = d3.select("body").
     append("svg").
