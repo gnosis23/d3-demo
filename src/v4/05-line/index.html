@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../../lib/d3-v4.js"></script>
+  <style>
+    svg {
+      box-sizing: content-box;
+      border: 1px solid #0098df;
+    }
+
+    .axis path {
+      stroke: steelblue;
+      stroke-width: 1
+    }
+
+    .axis .tick line {
+      stroke: steelblue;
+      stroke-width: 1
+    }
+
+    #grid .tick:nth-child(2) {
+      display: none;
+    }
+    #grid path {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
